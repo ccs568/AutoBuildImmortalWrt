@@ -64,6 +64,9 @@ PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn
 # UPnP 功能（NAT-PMP / 端口自动映射）
 PACKAGES="$PACKAGES miniupnpd luci-app-upnp luci-i18n-upnp-zh-cn"
 
+# 全锥型 NAT（Full Cone NAT）
+PACKAGES="$PACKAGES kmod-nft-fullcone luci-app-fullconenat luci-i18n-fullconenat-zh-cn"
+
 # 第三方软件包 合并
 # ======== shell/custom-packages.sh =======
 if [ "$PROFILE" = "glinet_gl-axt1800" ] || [ "$PROFILE" = "glinet_gl-ax1800" ]; then
