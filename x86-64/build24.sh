@@ -67,9 +67,6 @@ PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 # UPnP 功能（NAT-PMP / 端口自动映射）
 PACKAGES="$PACKAGES miniupnpd luci-app-upnp luci-i18n-upnp-zh-cn"
 
-# 全锥型 NAT（Full Cone NAT）
-PACKAGES="$PACKAGES kmod-nft-fullcone luci-app-fullconenat luci-i18n-fullconenat-zh-cn"
-
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
